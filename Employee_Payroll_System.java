@@ -19,7 +19,6 @@ abstract class Employee {
         return id;
     }
 
-    // Abstract method to be implemented by subclasses
     public abstract double calculateSalary();
 
     @Override
